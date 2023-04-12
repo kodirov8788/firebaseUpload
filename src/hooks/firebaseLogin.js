@@ -1,4 +1,3 @@
-import React, { useState } from 'react'
 import { getAuth, GoogleAuthProvider, signInWithPopup } from "firebase/auth"
 import firebase from "../firebase/firebase"
 

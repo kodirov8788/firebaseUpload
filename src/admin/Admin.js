@@ -1,6 +1,5 @@
 import React from 'react'
 import './AdminPage.css'
-import { useFirebaseStorage } from '../hooks/firebaseStorage'
 import { useFirebaseFirestore } from "../hooks/firebaseFirestore"
 import { useState } from 'react'
 

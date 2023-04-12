@@ -3,6 +3,7 @@ import { useFirebaseLogin } from "./hooks/firebaseLogin"
 
 function App() {
   const [SignOut, SignInWithGoogle, localName, localEmail, localPhoto] = useFirebaseLogin()
+  console.log(process.env)
   return (
     <div className="App">
       <h1>Home</h1>
